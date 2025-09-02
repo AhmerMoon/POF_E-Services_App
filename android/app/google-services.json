@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "315496642953",
+    "project_id": "pofeservices-30748",
+    "storage_bucket": "pofeservices-30748.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315496642953:android:ac8e6ebf7d1a8554ab4958",
+        "android_client_info": {
+          "package_name": "com.example.pof_e_services"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoU8nQ1aG9eSRlN8D1ZsKjXaucK6_si6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

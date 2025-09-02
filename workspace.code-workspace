@@ -1,0 +1,11 @@
+{
+  "folders": [],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
