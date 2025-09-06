@@ -14,32 +14,19 @@ A comprehensive Flutter-based employee services application for Pakistan Ordnanc
 ## 📸 Application Screenshots
 <div align="center">
 Splash Screen
-https://splash_screen.jpeg
-Welcome animation with POF branding
-
+<img src="splash_screen.jpeg" width="200" alt="Splash Screen - Welcome animation with POF branding"> *Welcome animation with POF branding*
 Login Screen
-https://login_screen.jpeg
-Secure authentication interface
-
+<img src="login_screen.jpeg" width="200" alt="Login Screen - Secure authentication interface"> *Secure authentication interface*
 Login Instructions
-https://login_instructions_screen.jpeg
-Step-by-step guide for account access
-
+<img src="login_instructions_screen.jpeg" width="200" alt="Login Instructions - Step-by-step guide for account access"> *Step-by-step guide for account access*
 Home Screen
-https://home_screeen.jpeg
-Main dashboard with service grid
-
+<img src="home_screeen.jpeg" width="200" alt="Home Screen - Main dashboard with service grid"> *Main dashboard with service grid*
 Complaints Overview
-https://complaints_screen.jpeg
-Complaint management dashboard
-
+<img src="complaints_screen.jpeg" width="200" alt="Complaints Screen - Complaint management dashboard"> *Complaint management dashboard*
 CMA/Pay Slips
-https://cma_screen.png
-Pay slip management and download
-
+<img src="cma_screen.png" width="200" alt="CMA Screen - Pay slip management and download"> *Pay slip management and download*
 Change Password
-https://change_password_screen.jpeg
-Secure password update interface
+<img src="change_password_screen.jpeg" width="200" alt="Change Password Screen - Secure password update interface"> *Secure password update interface*
 
 </div>
 
