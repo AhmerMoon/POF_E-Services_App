@@ -11,54 +11,6 @@ A comprehensive Flutter-based employee services application for Pakistan Ordnanc
 
 </div>
 
-## 📸 Application Screenshots
-
-<div align="center">
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-        <div style="text-align: center;">
-            <h3>Splash Screen</h3>
-            <img src="screenshots/splash_screen.jpeg" width="250" alt="Splash Screen - Welcome animation with POF branding">
-            <p>*Welcome animation with POF branding*</p>
-        </div>
-
-        <div style="text-align: center;">
-            <h3>Login Screen</h3>
-            <img src="screenshots/login_screen.jpeg" width="250" alt="Login Screen - Secure authentication interface">
-            <p>*Secure authentication interface*</p>
-        </div>
-
-        <div style="text-align: center;">
-            <h3>Login Instructions</h3>
-            <img src="screenshots/login_instructions_screen.jpeg" width="250" alt="Login Instructions - Step-by-step guide for account access">
-            <p>*Step-by-step guide for account access*</p>
-        </div>
-
-        <div style="text-align: center;">
-            <h3>Home Screen</h3>
-            <img src="screenshots/home_screeen.jpeg" width="250" alt="Home Screen - Main dashboard with service grid">
-            <p>*Main dashboard with service grid*</p>
-        </div>
-
-        <div style="text-align: center;">
-            <h3>Complaints Overview</h3>
-            <img src="screenshots/complaints_screen.jpeg" width="250" alt="Complaints Screen - Complaint management dashboard">
-            <p>*Complaint management dashboard*</p>
-        </div>
-
-        <div style="text-align: center;">
-            <h3>CMA/Pay Slips</h3>
-            <img src="screenshots/cma_screen.png" width="250" alt="CMA Screen - Pay slip management and download">
-            <p>*Pay slip management and download*</p>
-        </div>
-
-        <div style="text-align: center;">
-            <h3>Change Password</h3>
-            <img src="screenshots/change_password_screen.jpeg" width="250" alt="Change Password Screen - Secure password update interface">
-            <p>*Secure password update interface*</p>
-        </div>
-    </div>
-</div>
-
 ## ✨ Features
 
 ### 🔐 Authentication & Security
