@@ -1,153 +1,173 @@
-# POF e-Services
+# POF e-Services 🚀
+
+<div align="center">
+  
+![POF e-Services](https://img.shields.io/badge/Flutter-Framework-blue?logo=flutter)
+![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)
+![Platform](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20Web-green)
+![License](https://img.shields.io/badge/License-Proprietary-lightgrey)
 
 A comprehensive Flutter-based employee services application for Pakistan Ordnance Factories (POF) employees.
 
-# Video Tutorial
+</div>
 
-[🎥 Watch the demo](tutorial/tutorial.mp4)
+## ✨ Features
 
-## Features
+### 🔐 Authentication & Security
+- **Secure Login System** with Firebase Authentication
+- **Password Management** with change password functionality
+- **Role-based Access Control**
 
-- **User Authentication**: Secure login system with Firebase Authentication
-- **Complaint Management**: 
-  - Register new complaints with multiple categories
-  - View open and closed complaints
-  - Track complaint status with timestamps
-- **Payroll Services**: 
-  - Download pay slips for the last 12 months
-  - Cross-platform PDF generation (web and mobile)
-- **Password Management**: Secure password change functionality
-- **Multiple Service Categories**:
-  - Station Engineer
-  - Telephone Internet
-  - Water Supply
-  - CMA (POFs)
-  - Student Bus Pass
-  - POF Merit Scholarship
-  - Electric Distribution
-  - GCC Training
+### 📋 Complaint Management System
+- 🆕 **Register New Complaints** with multiple categories
+- 👀 **View Open Complaints** with real-time updates
+- ✅ **Track Closed Complaints** with timestamps
+- 📊 **Complaint Statistics** dashboard
 
-## Screens
+### 💰 Payroll Services
+- 📄 **Pay Slip Generation** for last 12 months
+- 🌐 **Cross-platform PDF Export** (web and mobile)
+- ⬇️ **Easy Download** functionality
 
-- Splash Screen
-- Login Screen with instructions
-- Home Screen with service grid
-- Complaint Registration Screen
-- Open Complaints Screen
-- Closed Complaints Screen
-- CMA (Pay Slips) Screen
-- Change Password Screen
+### 🏢 Service Categories
+- 🔧 Station Engineer Services
+- 📞 Telephone & Internet Services
+- 💧 Water Supply Management
+- 📊 CMA (POFs) Services
+- 🚌 Student Bus Pass
+- 🎓 POF Merit Scholarship
+- ⚡ Electric Distribution
+- 🎯 GCC Training
 
-## Technologies Used
+## 📱 Screens Overview
 
-- **Flutter**: Cross-platform framework
-- **Firebase**: 
-  - Authentication for user management
-  - Firestore for complaint data storage
-- **PDF Generation**: For pay slip creation
-- **Provider**: State management
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| **Splash Screen**<br>*Welcome animation* | **Login Screen**<br>*Secure authentication* | **Home Screen**<br>*Service dashboard* |
+| **Complaint Registration**<br>*Multi-step form* | **Complaint Tracking**<br>*Real-time status* | **Pay Slips**<br>*PDF generation* |
 
-## Setup Instructions
+## 🛠️ Technology Stack
+
+- **Frontend Framework**: Flutter 📱
+- **Backend Services**: Firebase 🔥
+- **Authentication**: Firebase Auth 🔐
+- **Database**: Cloud Firestore 💾
+- **State Management**: Provider 🧩
+- **PDF Generation**: pdf & printing packages 📄
+- **File Management**: path_provider 📁
+
+## 🚀 Installation & Setup
 
 ### Prerequisites
 
 - Flutter SDK (latest stable version)
 - Dart SDK
 - Firebase project
-- Android/iOS development environment (for mobile builds)
+- Android/iOS development environment
 
-### Installation
+### Step-by-Step Setup
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd pof_e_services
-```
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd pof_e_services
+   ```
 
-2. Install dependencies:
-```bash
-flutter pub get
-```
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
 
-3. Firebase Setup:
+3. **Firebase Configuration**
    - Create a new Firebase project
    - Enable Authentication (Email/Password)
    - Enable Firestore Database
-   - Add your platforms (Android, iOS, Web)
-   - Download configuration files and place them in the appropriate directories
+   - Add platform configurations:
+     - Android: Add `google-services.json`
+     - iOS: Add `GoogleService-Info.plist`
+     - Web: Add Firebase config to `web/index.html`
 
-4. Run the application:
-```bash
-flutter run
-```
+4. **Run the application**
+   ```bash
+   flutter run
+   ```
 
-## Firebase Configuration
-
-The app uses Firebase for:
-- User authentication
-- Cloud Firestore for complaint data storage
-
-Make sure to configure Firebase properly for all target platforms (web, Android, iOS).
-
-## Building for Production
-
-### Android
-```bash
-flutter build apk --release
-```
-
-### iOS
-```bash
-flutter build ios --release
-```
-
-### Web
-```bash
-flutter build web --release
-```
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 lib/
 ├── screens/
-│   ├── splash_screen.dart
-│   ├── login_screen.dart
-│   ├── home_screen.dart
-│   ├── complaint_screen.dart
-│   ├── register_complaint_screen.dart
-│   ├── open_complaints_screen.dart
-│   ├── closed_complaints_screen.dart
-│   ├── cma_screen.dart
-│   └── change_password_screen.dart
+│   ├── splash_screen.dart      # Welcome animation
+│   ├── login_screen.dart       # Authentication
+│   ├── home_screen.dart        # Main dashboard
+│   ├── complaint_screen.dart   # Complaint management
+│   ├── register_complaint_screen.dart  # New complaint
+│   ├── open_complaints_screen.dart     # Active complaints
+│   ├── closed_complaints_screen.dart   # Resolved complaints
+│   ├── cma_screen.dart         # Pay slip management
+│   └── change_password_screen.dart     # Security
 ├── services/
-│   └── auth_service.dart
-└── main.dart
+│   └── auth_service.dart       # Authentication logic
+└── main.dart                   # App entry point
 ```
 
-## Dependencies
+## 📦 Dependencies
 
-Key dependencies include:
-- firebase_core: ^4.0.0
-- firebase_auth: ^6.0.1
-- cloud_firestore: ^6.0.0
-- provider: ^6.1.5+1
-- pdf: ^3.11.3
-- printing: ^5.14.2
-- path_provider: ^2.1.5
+| Package | Version | Purpose |
+|---------|---------|---------|
+| flutter | SDK | UI Framework |
+| firebase_core | ^4.0.0 | Firebase integration |
+| firebase_auth | ^6.0.1 | Authentication |
+| cloud_firestore | ^6.0.0 | Database |
+| provider | ^6.1.5+1 | State management |
+| pdf | ^3.11.3 | PDF generation |
+| printing | ^5.14.2 | PDF printing |
+| path_provider | ^2.1.5 | File system access |
 
-## Contributing
+## 🏗️ Building for Production
+
+### Android APK
+```bash
+flutter build apk --release
+```
+
+### iOS Bundle
+```bash
+flutter build ios --release
+```
+
+### Web Deployment
+```bash
+flutter build web --release
+```
+
+## 🤝 Contributing
+
+We welcome contributions to enhance POF e-Services! Please follow these steps:
 
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test on all platforms
-5. Submit a pull request
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## License
+## 📄 License
 
-This project is developed for Pakistan Ordnance Factories. All rights reserved.
+This project is developed for and owned by Pakistan Ordnance Factories. All rights reserved.
 
-## Support
+## 🆘 Support
 
-For support regarding this application, please contact the IT Department - POF.
+For technical support or questions about this application, please contact:
+  
+📧 ahmermoonmajid@gmail.com  
+☎️ +92-328-5077511
+
+---
+
+<div align="center">
+
+### **Powered By: IT Department - POF**
+
+*Enhancing employee services through technology* ✨
+
+</div>
