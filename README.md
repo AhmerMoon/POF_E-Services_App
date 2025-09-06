@@ -3,7 +3,8 @@
 A comprehensive Flutter-based employee services application for Pakistan Ordnance Factories (POF) employees.
 
 # Video Tutorial
-<video src="tutorial/tutorial.mp4" controls width="600"></video>
+
+[🎥 Watch the demo](tutorial/tutorial.mp4)
 
 ## Features
 
